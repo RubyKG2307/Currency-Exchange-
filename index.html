@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test21.09</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+<div class="Exchange">
+    <h1>Currency Exchange </h1>
+
+
+    <div class="app-body">
+        <div class="section-center">
+            <label>
+                <input type="number" class="amount-first" value="1">
+            </label>
+            <label for="currency-first"></label><select id="currency-first">
+
+
+
+                <option value="USD">USD</option>
+                <option value="KGS">KGS</option>
+            </select>
+        </div>
+
+        <button class="swap">
+            <i class="fas fa-exchange-alt"></i>
+        </button>
+
+
+        <div class="section-right">
+            <label>
+                <input type="text" class="amount-second" disabled>
+            </label>
+            <label for="currency-second"></label><select id="currency-second">
+
+
+                <option value="USD">USD</option>
+                <option value="KGS">KGS</option>
+            </select>
+        </div>
+    </div>
+
+    <p class="rate-info"></p>
+    <div>
+        <button class="calculate">Calculate</button>
+    </div>
+</div>
+
+<script src="./script/script.js"></script>
+</body>
+</html>
